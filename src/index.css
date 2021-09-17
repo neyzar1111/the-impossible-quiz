@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  background-color: #2f3136;
+  color: #c4c2ba;
+}
+.btn{
+  padding: 3px 12px;
+  width: 100px;
+  background-color: #87f5d0;
+  color: #2e3b0f;
+  border: 1px solid #3db18e;
+  margin: 4px;
+}
+.btn:active{
+  background-color: #65cba9;
+}
+.btn:hover{
+  background-color: #65cba9;
+}
+.message-question{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  color: #e1f877;
+  font-weight: bold;
+
+}
+.message{
+  color: #e1f877;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+#root{
+  /*width: 100%;*/
+  /*height: 100vh;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*background-image: url("https://kartinkin.com/uploads/posts/2020-11/1606687473_57-p-pastelnii-fon-dlya-prezentatsii-67.jpg");*/
+  /*background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-dream-starry-sky-beautiful-watercolor-background-image_20240.jpg");*/
+  /*background-image: url('https://wallpaperaccess.com/full/4220246.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*background-color: #2f3136;*/
+}
+header{
+  color: #e1f877;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav{
+  width: 40%;
+}
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+ul li{
+  color: #e1f877;
+
+}
+ul li:hover{
+  text-decoration: underline;
+}
+.container-quizwrap{;
+  background-color: rgba(14, 72, 108, 0.15);
+  box-shadow:  0 0 1rem 0 rgba(0,0, 0, .2);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 3;
+  margin: 20px auto;
+  max-width: 800px;
+  min-height: 500px;
+
+
+}
+.container-quizwrap :before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(226, 0, 0, 0.2);
+  filter:blur(20px);
+  margin:  -20px;
+  z-index: -1;
+}
+.question-container{
+  background-color: rgba(48, 80, 82, 0.21);
+  border-radius: 5px;
+  width: 90%;
+}
+.question{
+  color: azure;
+}
+.container-controls{
+  margin-top: 1em;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: column;
+}
+.isHidden{
+  display: none;
+}
+.show{
+  display: block;
+}
+.add-flex{
+  display: flex;
+}
+/*.SecondPartQuestions{*/
+/*  background: darkblue;*/
+/*  margin: 2em auto;*/
+/*  border-radius: 5px;*/
+/*  width: 70%;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  min-height: 500px;*/
+/*}*/
